@@ -9,7 +9,7 @@
 }
 
 @page {
-    margin: 1cm 0.25cm; /* 上下边距为 2 厘米，左右边距为 1 厘米 */
+    margin: 1cm 0.25cm; /* 上下 1cm，左右 0.25cm */
 }
 
 @include-when-export url(https://raw.githubusercontent.com/slashfoo/lmweb/master/style/latinmodern-mono-light.css);
@@ -24,7 +24,7 @@ html {
     font-weight: normal;
     src: local('STIX2Text Regular'),
         url('./academic/STIX2Text-Regular.woff') format('woff'),
-        url('ttps://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff') format('woff')
+        url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff') format('woff')
 }
 
 @font-face {
@@ -33,7 +33,7 @@ html {
     font-weight: normal;
     src: local('STIX2Text Italic'),
         url('./academic/STIX2Text-Italic.woff') format('woff'),
-        url('ttps://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff') format('woff')
+        url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff') format('woff')
 }
 
 @font-face {
@@ -42,7 +42,7 @@ html {
     font-weight: bold;
     src: local('STIX2Text Bold'),
         url('./academic/STIX2Text-Bold.woff') format('woff'),
-        url('ttps://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff') format('woff')
+        url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff') format('woff')
 }
 
 @font-face {
@@ -51,7 +51,7 @@ html {
     font-weight: bold;
     src: local('STIX2Text Bold Italic'),
     url('./academic/STIX2Text-BoldItalic.woff') format('woff'),
-    url('ttps://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-BoldItalic.woff') format('woff')
+    url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-BoldItalic.woff') format('woff')
 }
 
 @font-face {
@@ -312,7 +312,7 @@ blockquote {
 }
 
 strong {
-	color: red;
+    color: red;
 }
 
 /*blockquote:before {
