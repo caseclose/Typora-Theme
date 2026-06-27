@@ -15,7 +15,7 @@ A customized fork of the official Typora Academic theme, tuned for Chinese typog
 ## 目录结构 / Structure
 
 ```
-Typora_Theme/
+Typora-Theme/
 ├── academic.css          # 主题样式文件
 └── academic/             # 字体与许可文件
     ├── *.woff
